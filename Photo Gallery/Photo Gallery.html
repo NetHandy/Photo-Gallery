@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+</head>
+<body>
+
+<div id="container" align="center">
+    <h1>My Gallery</h1>
+
+    <br />
+
+    <div class="thumbnails">
+        <img onmouseover= "preview.src=img1.src" name="img1" src="..\Photo Gallery\LinkedIn\1.jpg" />
+        
+        <img onmouseover= "preview.src=img2.src" name="img2" src="..\Photo Gallery\LinkedIn\2.jpg" />
+    
+        <img onmouseover= "preview.src=img3.src" name="img3" src="..\Photo Gallery\LinkedIn\3.jpg" />
+    
+        <img onmouseover= "preview.src=img4.src" name="img4" src="..\Photo Gallery\LinkedIn\4.jpg" />
+    
+        <img onmouseover= "preview.src=img5.src" name="img5" src="..\Photo Gallery\LinkedIn\5.jpg" />
+    
+    </div>
+
+<br />
+
+    <div class="preview" align="center">
+        <img name="preview" src="..\Photo Gallery\LinkedIn\1.jpg" />
+    </div>
+    
+</div>
+
+    <style>
+        body{
+            background: #222;
+            margin-top: 20px;
+            font-family: arial;
+            color: white;
+        }
+
+        .thumbnails img{
+            height: 80px;
+            border: 4px solid #555;
+            padding-inline-start: 1px;
+            margin: 0 10px 10px 0;
+        }
+
+        .thumbnails img:hover{
+            border: 4px solid #00ccff;
+        }
+
+        .preview img{
+            border: 4px solid #444;
+            padding: 1px;
+            width: 300px;
+            height: 600px;
+        }
+    </style>
+
+    <script>
+
+    </script>
+</body>
+</html>
